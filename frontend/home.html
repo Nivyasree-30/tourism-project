@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel World</title>
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    overflow:hidden;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+    background:rgba(0,0,0,0.3);
+}
+
+.logo{
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+}
+
+ul{
+    display:flex;
+    list-style:none;
+}
+
+ul li{
+    margin-left:30px;
+}
+
+ul li a{
+    text-decoration:none;
+    color:white;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:85vh;
+}
+
+.content{
+    color:white;
+}
+
+.content h1{
+    font-size:70px;
+}
+
+.content p{
+    margin:20px 0;
+    font-size:20px;
+}
+
+button{
+    padding:15px 35px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.cards{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.card{
+    width:250px;
+    padding:25px;
+    background:rgba(255,255,255,0.2);
+    backdrop-filter:blur(10px);
+    color:white;
+    border-radius:20px;
+    text-align:center;
+}
+    </style>
+    
+</head>
+<body>
+
+<nav>
+    <div class="logo">TravelWorld</div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destination.html">Destinations</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+
+    <div class="content">
+        <h1>Explore The World</h1>
+        <p>Your next adventure starts here</p>
+
+        <a href="destination.html">
+    <button>Explore Now</button>
+</a>
+
+       
+    </div>
+
+    <div class="cards">
+
+        <div class="card">🏝️ Maldives</div>
+        <div class="card">🏔️ Switzerland</div>
+        <div class="card">🏖️ Bali</div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

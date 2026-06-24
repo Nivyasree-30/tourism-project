@@ -1,0 +1,15 @@
+# Backend - IntelliJ / Spring Boot
+.idea/
+*.iml
+target/
+
+# Frontend
+.vscode/
+
+# Database credentials
+*.env
+*.properties
+
+# OS files
+.DS_Store
+Thumbs.db

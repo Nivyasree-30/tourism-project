@@ -17,7 +17,7 @@ document
     };
 
     fetch(
-        "http://localhost:8080/signup/save",
+        "https://tourism-project-production-a463.up.railway.app/signup/save",
         {
             method:"POST",
 

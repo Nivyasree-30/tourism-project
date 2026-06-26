@@ -13,7 +13,7 @@ document.getElementById("contactForm")
     try {
 
         const response = await fetch(
-            "http://localhost:8080/contact/save",
+            "https://tourism-project-production-a463.up.railway.app/contact/save",
             {
                 method: "POST",
                 headers: {

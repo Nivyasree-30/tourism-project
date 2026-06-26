@@ -15,7 +15,7 @@ document.getElementById("registerForm")
     };
 
     const response = await fetch(
-        "http://localhost:8080/travel/book",
+        "https://tourism-project-production-a463.up.railway.app/travel/book",
         {
             method:"POST",
             headers:{

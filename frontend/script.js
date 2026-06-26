@@ -12,7 +12,7 @@ document.getElementById("loginForm")
     try {
 
         const response = await fetch(
-            "http://localhost:8080/Login/register",
+            "https://tourism-project-production-a463.up.railway.app/Login/register",
             {
                 method: "POST",
                 headers: {
